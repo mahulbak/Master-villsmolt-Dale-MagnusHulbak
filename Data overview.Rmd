@@ -58,7 +58,39 @@ str(Data_villsmolt_Dale.df)
 ```{r}
 levels(Data_villsmolt_Dale.df$V2)
 ```
+```{r}
+levels(Data_villsmolt_Dale.df$V4)
+```
 
+```{r}
+levels(Data_villsmolt_Dale.df$V9)
+```
+
+```{r}
+levels(Data_villsmolt_Dale.df$V12)
+```
+
+```{r}
+levels(Data_villsmolt_Dale.df$V48)
+```
+
+
+```{r}
+as_tibble(Data_villsmolt_Dale.df)
+  
+```
+
+Hvilken data må jeg sortere?
+
+1) Kolonne V2-> Fangst.sted: Restfelt i Dale og wolf-felle
+2) Kolonne V4-> Fangst.metode: Elfiske(restfelt) og wolf(wolf-felle)
+3) Kolonne V3-> Fangst.dato: 2019-04 -> 2019-07
+4) Kolonne V5-> Arter: Salmo salar
+5) Kolonne V6-> Year: 2019
+6) Kolonne V7-> Life.stage: presmolt og smolt?
+7) Kolonne V9-> Opp.oppr: vill
+8) Kolonne V12-> Merke.type: HDX-12mm
+9) Kolonne V48-> AntennaName: DalemunningBunn, DalevågenBunnM, DalevågenbunnS, DaleRevebruabunn ++
 
 
 
